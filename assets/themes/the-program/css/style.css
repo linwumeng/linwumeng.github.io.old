@@ -605,6 +605,7 @@ pre {
 .the-header .nav-global .forkme {
   position: relative;
   top: 2px;
+  display: none;
 }
 /* MAIN
 --------------------------------------------------------------------------------- */
