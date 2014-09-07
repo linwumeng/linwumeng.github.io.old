@@ -139,10 +139,16 @@ It's easy to find the page to tell how to do that for there is a [git help page]
 
 Here I can push my changes to the GitHub Repo.
 
-Furthermore, it's a good idea to preview the blog before publishing. To do this, just run Jekyll on the VM as
+## Install therubyracer
+
+I cannot wait for anytime to preview the blog before publishing. Hence I run Jekyll on the VM as
 
 	$ jekyll serve
 
-Then open http://localhost:4000. I saw the post entry on the page and I can read it by clicking the link. According to the tip of Jekyll server, I add `--watch` swith to the command, so that I can see the changes immediately as I save them.
+What did I see? Another error message! Jekyll requires a javascript engine while I hadn't install. Thanks for the information in the error message that instructs me to find a javascript engine for Ruby on GitHub.
+
+	$ gem install therubyracer
+
+V8 is installed. Then open http://localhost:4000. I saw the post entry on the page and I can read it by clicking the link. According to the tip of Jekyll server, I add `--watch` swith to the command, so that I can see the changes immediately as I save them.
 
 It's the time to enjoy the blogs.
