@@ -24,7 +24,7 @@ Besides the [article](erjjones.github.io/blog/How-I-built-my-blog-in-one-day/), 
 ## GitHub
 It's not supprise that the first step is to register a GitHub account since I want to use GitHub Pages to host the blog.
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.   Setup a free [GitHub](https://github.com/signup/free) account, and follow the [setup instructions](http://help.github.com/).
+&nbsp;&nbsp;&nbsp;&nbsp;1.   Setup a free [GitHub](https://github.com/signup/free) account, and follow the [setup instructions](http://help.github.com/).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.   Create a [GitHub Page](http://pages.github.com) with your username.
 
 After these steps, I get an empty repository, linwumeng.github.io, to host the pages.
