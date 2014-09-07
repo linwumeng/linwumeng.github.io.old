@@ -15,7 +15,7 @@ There are articles online to address how to use Github to host your pages with J
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.   It's a test to be my first article to use the system.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.   I meet some problems on the way to create this blog.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to review the process here so that I and someone</br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to review the process here so that I and someone<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else could read it to get help.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;3.   I grow from this experience. I feel good!<br/>
 
