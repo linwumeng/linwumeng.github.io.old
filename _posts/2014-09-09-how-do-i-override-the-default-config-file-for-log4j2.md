@@ -70,4 +70,6 @@ I'm confused. So I googled and find the answer,
 
 Yes, the mistake is just that `-D` is JVM option than the app parameter. Change the position to fix it.
 
+Lastly, the app reported another error message about the URL format of `%~dp0:0,-1%\log4j2.xml`. I figured out the fix immediately as the error message showed up by add`file://` as the protocol part to form a URL as `file://%~dp0:0,-1%\log4j2.xml`.
+
 Ok, that is all today.
