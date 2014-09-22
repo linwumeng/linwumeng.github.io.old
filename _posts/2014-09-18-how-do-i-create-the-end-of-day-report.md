@@ -7,7 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 ## Background
-
 We inherited a tool based on Excel from the predecessor, which can generate a simple AR list report consisting of two tables. The header table contains a little statistics per teams. The big table below the header is the AR list with data that is important to prioritize the items.
 
 In the old days, we run the tool every working day before left the office to generate the report, and then sent it out to the management board. This end of day report is the complement of the morning report. However, it is boring and waste a bit of time cumulatively although it is a part of management process required by the management board.
@@ -52,5 +51,10 @@ What is the way to escape from the boring mechanism work? Using the computer, of
       1. Approve the report by click a link in the mail
 
 ## Code
-     export.vbs
-     Application.obj
+    {% highlight vb.net%}
+    Set objExcel = CreateObject("Excel.Application")
+Set objWB = objExcel.Workbooks.Open("report.xlsm")
+    
+objExcel.Application.Run "'report.xls'!exportHTML"
+objExcel.Application.Quit
+    {% endhighlight %}

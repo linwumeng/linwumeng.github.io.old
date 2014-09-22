@@ -5,6 +5,7 @@ description: ""
 category: lessons 
 tagline: "Supporting tagline"
 tags: [intro, beginner, jekyll, tutorial]
+excerpt_separator: <!--more--> 
 ---
 {% include JB/setup %}
 
@@ -12,6 +13,7 @@ tags: [intro, beginner, jekyll, tutorial]
 I create this blog to record how I grow as my study. By study ways to create a blog, I choose the solution of publishing blog by Jekyll on Github. This solution wins for it is easy to build up and maintain in the future.
 
 There are articles online to address how to use Github to host your pages with Jekyll to be a blog system. As the author of the [article](erjjones.github.io/blog/How-I-built-my-blog-in-one-day/) I followed, I don't invent a new way to do the same thing. I decide to write this article for purposes:
+<!--more-->
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.   It's a test to be my first article to use the system.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;2.   I meet some problems on the way to create this blog.<br/>

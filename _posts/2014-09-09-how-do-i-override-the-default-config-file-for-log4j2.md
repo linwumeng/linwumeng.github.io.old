@@ -8,10 +8,10 @@ tags: [lesson, tutorial, log4j2]
 {% include JB/setup %}
 
 ## Preface
-
 I got a bug report about the auto AR (the term for but in our organization) list notification mail tool this morning. It tells that the age of some ARs is -1. The tool is developed by me for I'm too lazy to send out the notification mail of AR list as morning report to the whole team and management layer. Hence I develop a small app by Groovy to generate the report and send it out every morning automatically.
 
 For the line manager complained that the report was not align to the list the management layer focus on last week, I decided to reimplement it in a new way by grasping the AR list from the web page as management layer does. The old fashion is a typical Java developer method to develop the monolic-java-language app by Java API from the vendor. Although I've already considered the changes of query critera, I found that I may get different list by the API. Since I cannot afford time to investigate the reason, I decide to grasp the list from web pages by cURL in a short time for it definitely gets the same list as human does.
+<!--more-->
 
 I did learn a lot from rewriting the Groovy app leveraging cURL to grasp json, however, I want to talk about the little trouble about config file of log4j2 I meet when deploying the app.
 
