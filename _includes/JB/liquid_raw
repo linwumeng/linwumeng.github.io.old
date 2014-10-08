@@ -7,7 +7,7 @@ Using one will break the other if you plan to deploy to GitHub pages.
   see: https://github.com/mojombo/jekyll/issues/425
 
 Since I don't want to mess with Liquid versions, I'll just rewrite the way I 
-intend to give liquid examples. It's not an elegant solution by any means:
+intend to give liquid examples. It's not an elegant by any means:
 
 Usage: 
   1) Define a 'text' variable with the block of liquid code you intend to display.
@@ -27,6 +27,6 @@ Usage:
 {% if site.JB.liquid_raw.provider == "custom" %}
   {% include custom/liquid_raw %}
 {% else %}
-  <pre><code>{{text | replace:"|.", "&#123;" | replace:".|", "&#125;" | replace:">", "&gt;" | replace:"<", "&lt;" }}</code></pre>
+  <pre><code>{{text | replace:"|.", "&#123;" | replace:",|", "&#125;" | replace:">", "&gt;" | replace:"<", "&lt;" }}</code></pre>
 {% endif %}
 {% assign text = nil %}
