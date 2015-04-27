@@ -309,9 +309,10 @@ end
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
-require "yaml"
+#require "yaml"
 
 NAME_PATTERN = /^(?<dir>.+\/)*(?<date>\d+-\d+-\d+)-(?<title>.*)(?<ext>\.[^.]+)$/
+source_dir = File.join(SOURCE, "_posts")
 
 desc "Rename post"
 task :rename_post, :post, :new_title do |t, args|
@@ -352,6 +353,8 @@ namespace :attachment do
   desc "Create attachment folder for post"
   task :create, :post do |t, args|
     args.with_defaults(post: '')
+    puts args
+    puts args.post
     name_parts = args.post.match NAME_PATTERN
     abort("Not a post") if name_parts.nil?
 
