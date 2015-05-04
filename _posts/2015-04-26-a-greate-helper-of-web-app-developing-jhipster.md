@@ -10,3 +10,5 @@ I found a very interesting tool for the new Web project which is named [JHipster
 
 I generate a sample [project](/attachments/2015-04-26/book.7z).
 The useful tools are [atom](/attachments/2015-04-26/atom.zip) and [npm](/attachments/2015-04-26/npm.7z), [npm modules](/attachments/2015-04-26/node_modules.7z).
+
+add the package for [moment](/attachments/2015-04-26/bower_components.zip).
