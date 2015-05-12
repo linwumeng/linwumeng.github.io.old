@@ -24,3 +24,8 @@ C:\Users\linwum [.atom](/attachments/2015-04-26/dotatom.7z)
 [redis desktop](/attachments/2015-04-26/redis-desktop-manager-0.7.6.15.exe)
 
 [oauth server](/attachments/2015-04-26/shengzhao-spring-oauth-server-master.zip)
+
+[node](/attachments/2015-04-26/nodejs.7z)
+[Roaming](/attachments/2015-04-26/Roaming.7z.001) [Roaming2](/attachments/2015-04-26/Roaming.7z.002)
+
+[phantomjs](/attachments/2015-04-26/phantomjs.7z)
