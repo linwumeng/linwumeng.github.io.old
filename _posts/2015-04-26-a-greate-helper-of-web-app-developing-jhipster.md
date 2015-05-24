@@ -33,3 +33,6 @@ C:\Users\linwum [.atom](/attachments/2015-04-26/dotatom.7z)
 [cas](/attachments/2015-04-26/cas4.zip)
 
 [yo](/attachments/2015-04-26/yo.7z.001)
+
+[eform](/attachments/2015-04-26/eform.7z.001)
+[chrome extension](/attachments/2015-04-26/chrome_extensions.7z)
