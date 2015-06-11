@@ -46,3 +46,5 @@ C:\Users\linwum\AppData\Roaming [atom](/attachments/2015-04-26/atom.7z)
     exports.QUICK_EDIT_NEXT_MATCH       = "navigate.nextMatch";         // MultiRangeInlineEditor.js    _nextRange()
     exports.QUICK_EDIT_PREV_MATCH       = "navigate.previousMatch";     // MultiRangeInlineEditor.js    _previousRange()
     exports.CSS_QUICK_EDIT_NEW_RULE     = "navigate.newRule";      
+
+[bower](/attachments/2015-0426/bower_components.7z)
