@@ -47,8 +47,7 @@ C:\Users\linwum\AppData\Roaming [atom](/attachments/2015-04-26/atom.7z)
     exports.QUICK_EDIT_PREV_MATCH       = "navigate.previousMatch";     // MultiRangeInlineEditor.js    _previousRange()
     exports.CSS_QUICK_EDIT_NEW_RULE     = "navigate.newRule";      
 
-[bower](/attachments/2015-04-26/bower_components.7z)
-[ipv](/attachments/2015-04-26/ipv.7z.001)
 [goodmail](/attachments/2015-04-26/goodmail2.7z.001)
 [goodmail2](/attachments/2015-04-26/goodmail2.7z.002)
 [kerberos](/attachments/2015-04-26/kerberos.zip)
+[soapui](/attachments/2015-04-26/soapui.7z.001)
